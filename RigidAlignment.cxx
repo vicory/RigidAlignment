@@ -178,7 +178,7 @@ void convertLandmarksToID(std::map<std::string, std::vector<int> > &landmarksMap
             std::string filename = meshList[i].substr(pivot);
 
             std::string name;
-            std::string suffixe_procalign = "_pp_surfSPHARM_procalign.vtk", suffixe_surfSPHARM = "_pp_surfSPHARM.vtk";
+            std::string suffixe_procalign = "_pp_surf_SPHARM_procalign.vtk", suffixe_surfSPHARM = "_pp_surf_SPHARM.vtk";
             int suffixe_size;
 
             if ( filename.substr(filename.length() - suffixe_surfSPHARM.length()) == suffixe_surfSPHARM )
